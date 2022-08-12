@@ -1,0 +1,16 @@
+{
+  "name": "lineaje-assignment",
+  "version": "1.0.0",
+  "description": "This project is to get details of family lineage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adil Shariq Syed",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "hasard": "^1.6.1",
+    "lodash": "^4.17.21"
+  }
+}
