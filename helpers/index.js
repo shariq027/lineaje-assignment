@@ -24,7 +24,7 @@ const stringifyMembersWithAge = (Members) =>{
 const evaluateFamilyTree = (dataString, fileName) => {
     const familyLineage = JSON.parse(dataString);
     const familyMembers = _.flatMapDeep(familyLineage.lineage.Members, evaluate.getMembers);
-
+    
     let fileContent = '';
 
     const invalidMembers = evaluate.getInvalidMembers(familyMembers);

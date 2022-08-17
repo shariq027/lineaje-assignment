@@ -4,13 +4,16 @@
   "description": "This project is to get details of family lineage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Adil Shariq Syed",
   "license": "ISC",
   "dependencies": {
     "argparse": "^2.0.1",
-    "hasard": "^1.6.1",
+    "chance": "^1.1.8",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }

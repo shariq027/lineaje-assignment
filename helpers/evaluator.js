@@ -103,5 +103,5 @@ module.exports = {
     lineageActivePeriod,
     getMeanAge,
     getMedianAge,
-    getIQR,
+    getIQR
 };
